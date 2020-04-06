@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>total_amount</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 13:06:35</sys_created_on>
+        <sys_id>bd01d5402f04d010a972a55df699b621</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>total_amount</sys_name>
+        <sys_package display_value="Daily Expense" source="x_478068_daily_exp">857c49692f770010a972a55df699b662</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">857c49692f770010a972a55df699b662</sys_scope>
+        <sys_update_name>sys_ui_policy_action_bd01d5402f04d010a972a55df699b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 13:07:19</sys_updated_on>
+        <table>x_478068_daily_exp_daily_expense</table>
+        <ui_policy display_value="DailyExpense show hide total amount">297d490c2fc0d010a972a55df699b600</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Daily Expense">857c49692f770010a972a55df699b662</application>
+        <file_path/>
+        <instance_id>9c7d57b9dbfe001042b321c40596190e</instance_id>
+        <instance_name>dev99673</instance_name>
+        <name>sys_ui_policy_action_bd01d5402f04d010a972a55df699b621</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>total_amount</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-03 13:06:35</sys_created_on><sys_id>bd01d5402f04d010a972a55df699b621</sys_id><sys_mod_count>1</sys_mod_count><sys_name>total_amount</sys_name><sys_package display_value="Daily Expense" source="x_478068_daily_exp">857c49692f770010a972a55df699b662</sys_package><sys_policy/><sys_scope display_value="Daily Expense">857c49692f770010a972a55df699b662</sys_scope><sys_update_name>sys_ui_policy_action_bd01d5402f04d010a972a55df699b621</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-03 13:07:19</sys_updated_on><table>x_478068_daily_exp_daily_expense</table><ui_policy display_value="DailyExpense show hide total amount">297d490c2fc0d010a972a55df699b600</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1257721774</payload_hash>
+        <record_name>total_amount</record_name>
+        <reverted_from/>
+        <source>097c49692f770010a972a55df699b664</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 13:07:19</sys_created_on>
+        <sys_id>73d19d402f04d010a972a55df699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171402724b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 13:07:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>bbd19d403b04d010b375a3e00fa82266</update_guid>
+        <update_guid_history>bbd19d403b04d010b375a3e00fa82266:-1257721774,01b11540e904d0108d8970eddf6fe418:-327130034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 14:48:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7c3db39694ce47b8b17e3e1768b79d10</sys_id>
+        <sys_metadata>bd01d5402f04d010a972a55df699b621</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_amount</sys_name>
+        <sys_package display_value="Daily Expense" source="x_478068_daily_exp">857c49692f770010a972a55df699b662</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">857c49692f770010a972a55df699b662</sys_scope>
+        <sys_scope_delete display_value="">23726193ffee42a1ac8c981206125599</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_bd01d5402f04d010a972a55df699b621</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_bd01d5402f04d010a972a55df699b621">73d19d402f04d010a972a55df699b667</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 14:48:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

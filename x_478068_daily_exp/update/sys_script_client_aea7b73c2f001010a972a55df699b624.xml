@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide Total amount when amount is above 500. Total amount should be 12 times of amount.</description>
+        <field>amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>DailyExpense1</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	g_form.setVisible('total_amount', true); 
+	var amt=g_form.getIntValue('amount');
+
+	if(amt>500){
+		g_form.setVisible('total_amount', false); 
+	}
+	else {		
+		g_form.setValue('total_amount',amt*12);
+	}
+	
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-06 09:18:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aea7b73c2f001010a972a55df699b624</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>DailyExpense1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Daily Expense" source="x_478068_daily_exp">857c49692f770010a972a55df699b662</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">857c49692f770010a972a55df699b662</sys_scope>
+        <sys_update_name>sys_script_client_aea7b73c2f001010a972a55df699b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-06 10:25:34</sys_updated_on>
+        <table>x_478068_daily_exp_daily_expense</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
